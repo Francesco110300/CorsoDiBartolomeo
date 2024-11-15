@@ -1,0 +1,42 @@
+1-import datetime #Guardando su python.org questa libreria ci fa avere dati che riguardano la data e l'ora 
+
+2- def assistente_virtuale(comando): #Qua noto subito che dopo aver dichiarato la funzione, per chiudere la riga non sono stati messi i 2 punti (:)
+
+3-	if comando == "Qual è la data di oggi?": #Qua non ho trovato errori
+
+4-	oggi = datetime.datetoday #In questa riga ho notato che a fine codice c'era una parentesi tonda aperta "(" che non significa nulla, probabilmente avrebbe bloccato il programma
+
+5-	risposta = "La data di oggi è " + oggi.strftime("%d/%m/%Y") #Qua 0 errori il programma ci indica semplicemente la data odierna, deducendo che: %d=day %m=month %Y=Year
+
+6-	elif comando == "Che ore sono?": #0 errori
+
+7-	ora_attuale = datetime.datetime.now().time() #Non vedo errori 
+
+8-	risposta = "L'ora attuale è: " + ora_attuale.strftime("%H:%M") #Qua tra le H c'è un carattere che non ho mai visto, visto che la stringa qua ci darà l'ora presumo ci vadano i :
+
+9-	elif comando == "Come ti chiami?": #due punti alla fine erano mancanti
+
+10-	risposta = "Mi chiamo Assistente Virtuale" #0 errori
+
+11-    else:
+
+12-	risposta = "Non ho capito la tua domanda." #Ci darà questa opzione nel caso il tool non abbia la risposta data da noi tra le sue scelte
+
+13-   return risposta #Qua il return non ha senso metterlo su una risposta, se proprio dovrebbe farmi tornare dovrebbe farlo al principio cioè da assistente virtuale
+
+14-   while True #Qua entriamo in un ciclo while True, cioè finchè la condizione non si avvera continueremo in loop a ripetere questo blocco
+
+15-   comando_utente = input("Cosa vuoi sapere? ") #Tutto ok 0 errori ci sta solo formulando una domanda
+
+16-	if comando_utente.lower() == "esci": #Qua classicone se digito esci lui ci saluterà e romperà il ciclo
+
+17-	print("Arrivederci!")
+
+18-	break #Per la precisione lo romperà esattamente in questo punto
+
+19-    else:
+
+20-	print(assistente_virtuale(comando_utente))   #Oppure ci darà la risposta se abbiamo formulato bene la domanda
+
+IN QUESTO FILE OLTRE AD ANALIZZARE LE FUNZIONI DEL TOOL E GLI ERRORI SIA LOGICI CHE DI SINTASSI RIGA PER RIGA, HO CERCATO DI MANTENERE UN'INDENTAZIONE PIU' CORRETTA POSSIBILE! UNA PICCOLA OSSERVAZIONE POTREBBE ESSERE CHE IL TOOL CERCA DI SIMULARE UNA SORTA DI AI CHE CI RIVELA INFORMAZIONI SULLA DATA E L'ORA E CHE RISPONDE A QUALCHE DOMANDA IN MODO PREDEFINITO E SEMPLICE!
+
