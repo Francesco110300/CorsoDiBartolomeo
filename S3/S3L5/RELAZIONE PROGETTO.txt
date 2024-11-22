@@ -1,0 +1,5 @@
+Nel progetto ho creato 3 aree di rete, una zona internet, un'area DMZ e una rete interna con lavoratori e Server dati/NAS.
+Il filtraggio dei pacchetti è gestito dal firewall che si intrapone tra tutte le 3 aree, ho scelto di creare la DMZ (che anche lei è esposta su internet) per far si che in caso di intrusione i "Curiosi" non possano introdursi nella rete interna dove ci potrebbero essere i pc dei lavoratori o appunto come nell'esempio server/Nas con dati sensibili riguardanti l'azienda, ci tengo a specificare che la DMZ non è una rete fisica ma una segmentazione logica della rete isolata dalla rete interna appunto per tutelare dipendenti e dati aziendali.
+Oltre appunto alla segmentazione logica che ho voluto fare sulla rete aziendale, come detto prima ho posizionato un firewall tra le reti per un ulteriore livello di sicurezza principalmente rivolto al cloud dove ci naviga tutto il mondo Hacker e Lamer inclusi!
+ 
+ 
