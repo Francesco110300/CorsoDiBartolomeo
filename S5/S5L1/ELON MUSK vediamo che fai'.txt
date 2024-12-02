@@ -1,0 +1,42 @@
+ELON MUSK TI TROVERO'
+Col query inurl:conctact sono risalito alle sue mail tesla:Americas
+
+press@tesla.com
+
+Europe & Middle East
+
+eupress@tesla.com
+
+Australia & Asia
+
+apacpress@tesla.com
+
+China
+
+china-press@tesla.com
+
+Col query intitle:Linkedin Elon Musk ho beccato appunto il suo profilo LinkedIn: https://www.linkedin.com/company/spacex/about/
+
+Con SHODAN ho cercato Starlink ed ho beccato un suo server Nominato "云端cloud加速" con ip 23.225.194.14 mi dice che è protetto da crittografia SSL questo server si trova a Los Angeles  California 1200 W 7th St. per beccare l'indirizzo mi sono aiutato con chat gpt digitando il nome che mi segna "cloud radium ccl" stranamente mi è apparso appunto digitando Starlink infatti secondo shodan sono collerate ho chiesto a chat cosa fosse e la risposta ha aperto una marea di possibilità di seguito incollo la parte piu interessante:
+
+ In ambito di sicurezza informatica, la società è stata menzionata in vecchi rapporti che discutono potenziali vulnerabilità nei servizi di alcuni fornitori di rete, che avrebbero potuto essere sfruttate. Tuttavia, non ci sono prove concrete che colleghino Cloud Radium LLC direttamente a comportamenti dannosi.
+
+Ho voluto approfondire ma nemmeno chat gpt trova una correlazione tra Starlink e "Cloud Radium ccl" ​Shodan però se digiti Starlink il primo risultato che ti butta fuori è proprio questo.
+
+Questo server ha delle porte aperte:80 443 8089 8443 8988 9999 10001.
+
+e l'unica correlazione che da con Starlink la incollo qua: X-Cache: MISS from cdn-Starlink-USA
+
+MISS: Significa che il contenuto non era presente nel cache e la richiesta è stata inoltrata al server di origine per essere soddisfatta
+
+Alla fine dei giochi presumo che questo sia un server Proxy…
+
+Con Maltego ho inserito il nome Elon Musk e con il query bing mail ho sgamato altre sue email che con dork di google non avevo beccato e sembrano un po meno vaghe delle prime trovate. 2 di quelle trovate mi sembravano succose cosi' ho cercato da che DNS venissero e detto fatto mi ha raccolto i siti dalla quale vengono queste email. Ho anche visionato in che siti viene menzionato e mi si è aperta un'altra strada il suo social "X" ex twitter vediamo se tiro fuori qualcosa in piu', facendo richiesta di un ip address a maltego ho trovato questo ip: 104.244.42.129. Ho incollato questo ip su un geolocalizzatore web e combacia si tratta proprio di twitter nel mentre ho anche beccato le sue coordinate:
+Latitude: 37.7749
+Longitude:-122.4194
+Region: California
+City: San Francisco
+ISP:Twitter Inc.
+Questa ricerca ha aperto molte strade e anche alcuni misteri perché no, non mi aspettavo che il signor Musk avesse a che fare con società strane come visto su shogan sicuramente la cosa piu' interessante che ho trovato è la "cloud radium ccl" che è una vecchia società da 10/15 dipendenti sulla quale si potrebbe avere altre info con una ricerca approfondita, e magari capire cosa centra con Starlink.
+
+ 
