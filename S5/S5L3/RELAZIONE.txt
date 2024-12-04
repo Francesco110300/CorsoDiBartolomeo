@@ -1,0 +1,4 @@
+RELAZIONE
+
+In questa esercitazione ho voluto fare 2 scansioni, una con un determinato range di porte e una che includesse tutte le porte. In principio mi sono loggato nella mia metasploit (macchina bersaglio)
+e concludendo le scansioni ho notato fin da subito la versatilità del tool sia dal metodo di accuratezza che può lasciarci il report (ovviamente è tutto regolabile da noi)  sia dall'automazione stessa del tool, ma il suo punto forte è proprio informarci sulle vulnerabilità del bersaglio classificandole in ordine di pericolosità e sia per le soluzioni di fixing al problema che ci propone il tool con tanto di documentazioni annesse da poter consultare per entrare molto in profondità nel problema, sicuramente a parer mio è un tool che può benissimo essere abbinato a intelligenza artificiale per scremare tutte le info della documentazione, sicuramente un bel oggetto per un vulnerability assestment preciso e anche su vasta scala, per me è un grande si!
