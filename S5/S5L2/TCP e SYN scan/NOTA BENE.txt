@@ -1,0 +1,2 @@
+RELAZIONE
+Conoscevo il comando per presentare la relazione dello scan in xml però il mio browser non riesce a leggerlo come ho mostrato in uno screen, percio' ho provato ad aprire il file con nano! (tra i 2 scan c'è differenza a livello di tempo di scansione, e che uno effettua una scansione mandando pacchetti 3 way hand shake completi come se facessero una connessione Tcp, mentre l'altro il SynScan manda solo pacchetti syn fermandosi alla risposta SYN ACK)
