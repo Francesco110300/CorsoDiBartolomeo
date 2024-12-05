@@ -1,1 +1,0 @@
-Le uniche differenze analizzando con NANO perché kali non mi fa vedere le pagine xml è stato il timing della scansione! (conto di risolvere il problema ho amato nmap)
