@@ -1,0 +1,6 @@
+1 il pc manda il pack con ip e mac allo switch
+2 lo switch legge solo i mac purtroppo :(
+3 quindi lo switch manda larichiesta ai suoi host collegati e non corrispondendo non risponderanno buttando il pacchetto
+4 il pack intanto arriverà nel router che legge sia ip che mac :D
+5 il router si fingerà il mittente riscrivendo il suo indirizzo mac sul pacchetto e intanto verificherà l'ip e il mac del destinatario
+6 mandandolo sullo switch lo switch mandera il pacchetto ai suoi host che quando arriverà a quello giusto lui in automatico darà la risposta :D
